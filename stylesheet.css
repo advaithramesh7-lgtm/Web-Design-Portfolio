@@ -1,0 +1,214 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+nav{
+    position:fixed;
+    background-color: #0B042C;
+    width: 100%;
+    z-index: 2;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(45deg, #FF5A8B,  #ff7e5f, #feb47b);
+  
+  /* 2. Clip the background to the text text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* 3. Make the original text color invisible */
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+  font-size: 32px;
+  margin: 0px;
+  
+}
+a{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-box: trim-both cap alphabetic;
+    color: white;
+    letter-spacing: 2%;
+    padding: 6px
+
+}
+h6{
+     font-family: dm sans;
+     color: white;
+    /* background: linear-gradient(45deg, #FF5A8B,  #ff7e5f, #feb47b); */
+  
+
+  /* -webkit-background-clip: text;
+  background-clip: text;
+  
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;  */
+  font-size: 24px;
+
+  margin: 0px;
+}
+p{
+    margin: 0px;
+    font-family: dm sans;
+    color: white;
+}
+h1{
+    margin: 0px;
+    font-size: 40px;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1% ;
+    padding-bottom: 1%;
+    top: 0px;
+}
+
+.nav-button-cont{
+    display: flex;
+}
+.nav-button{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    text-box: trim-both cap alphabetic;
+    color: white;
+    letter-spacing: 2%;
+    padding: 6px
+    ;
+    
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #240245;
+
+}
+#hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px; 
+    gap: 22px;
+}
+#sub-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#title{
+    font-family: pincoyablack;
+    font-size: 140px;
+    background: linear-gradient(45deg, #FF5A8B,  #ff7e5f, #feb47b, #FF5A8B);
+  
+  /* 2. Clip the background to the text text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* 3. Make the original text color invisible */
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+
+}
+
+#zombie{
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color:#110022 ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(45deg, #FF5A8B,  #ff7e5f, #feb47b, #FF5A8B);
+  
+  /* 2. Clip the background to the text text */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* 3. Make the original text color invisible */
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+
+}
+.skill-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    background-color:#110022 ;
+    padding-bottom: 100px;
+}
+#para-cont{
+    flex-direction: column;
+    display: flex;
+    gap: 4px;
+}
+.icon{
+    border-radius: 24px;
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.skill{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    border: solid 2px #feb47b84;
+    padding: 24px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+button{
+    background: linear-gradient(45deg, #FF5A8B,  #ff7e5f, #feb47b);
+    border: none;
+    padding: 16px 20px 16px 20px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #06000b;
+    padding: 50px 0px 50px 0px;
+    gap: 32px;
+}
